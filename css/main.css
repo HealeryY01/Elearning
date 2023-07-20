@@ -9,4 +9,30 @@ body {
   line-height: 1.43;
   color: #29303b;
   background-color: #fff;
+}
+
+.myNaBar .myNavBar__left {
+  display: flex;
+  align-items: center;
+}
+.myNaBar .myNavBar__left .navbar-brand {
+  flex-grow: 1;
+}
+.myNaBar .myNavBar__left .navbar-brand img {
+  width: 110px;
+}
+.myNaBar .myNavBar__left .myNavBar__categories {
+  flex-grow: 1;
+  text-align: center;
+  margin-right: 0;
+  color: #505763;
+  font-size: 13px;
+  font-weight: normal;
+  cursor: pointer;
+}
+.myNaBar .myNavBar__left .myNavBar__categories i {
+  color: #a1a7b3;
+}
+.myNaBar .myNavBar__left .myNavBar__form-search {
+  flex-grow: 8;
 }/*# sourceMappingURL=main.css.map */
